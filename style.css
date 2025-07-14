@@ -81,7 +81,7 @@ align-items:center;
 }
 .section{
  background:#e6e6e6;
- width:1000px;
+ width:1200px;
  text-align:left;
  border-radius:15px;
  padding:100px;
@@ -104,13 +104,14 @@ align-items:center;
   width:230px;
   height:500px;
   box-shadow:0 5px 15px rgba(0,0,0,0.1)
-  margin:50px;
+  margin-left:400px;
+  align-items:center
 }
 .card img{
   width:230px;
   height:300px;
   object-fit:content;
-  margin-bottom:10px;
+  margin-bottom:30px;
 }
 .card h3{
   font-size:18px;
@@ -139,4 +140,42 @@ align-items:center;
 }
 .card-footer button:hover{
   background:blue;
+}
+.image img{
+padding-left:300px;
+}
+.web-img img{
+padding-left:330px;
+width:500px;
+padding-top:50px;
+}
+.web-img h2 {
+padding-left:320px;
+padding-top:20px;
+}
+.web-img p{
+padding-left:320px;
+}
+h1{
+text-align:center;
+padding-top:50px ;
+}
+input{
+  width:70px;
+  height:30px;
+  margin-left:490px;
+  padding-left:30px;
+  border-radius:10px;
+}
+button{
+  background:#3f51bf;;
+  color:white;
+  height:30px;
+}
+button:hover{
+  background:blue;
+}
+
+h3{
+  text-align:center;
 }
